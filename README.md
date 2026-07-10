@@ -1,72 +1,93 @@
 # The Frank Ocean Archive
 
-A community-driven, open-source archive dedicated to preserving Frank Ocean's musical journey through official releases, unreleased tracks, performances, interviews, and other notable media. The goal is to create a clean, well-organized resource for fans while respecting copyright and supporting official sources whenever possible.
+An open-source archive documenting Frank Ocean's music, artistry, and creative legacy through a clean, minimal web experience.
+
+---
+
+## Preview
+
+### Home
+
+![Home](resources/screenshots/home-1.png)
+### Documentary
+
+![Documentary](resources/screenshots/documentary-2.png)
+
+### Music
+
+
+![Music](resources/screenshots/music-2.png)
+
+##### Check out  resources/screenshots/ for more
+---
 
 ## Project Structure
 
-```
-FrankOceanArchive/
+```text
+The-Frank-Ocean-Archive/
 │
 ├── resources/
 │   ├── images/
-│   └── documentation/
+│   └── screenshots/
 │
 ├── styles/
 │   ├── style.css
-│   ├── released.css
-│   ├── unreleased.css
-│   └── documentary.css
+│   ├── documentary.css
+│   └── music.css
 │
 ├── index.html
-├── released.html
-├── unreleased.html
 ├── documentary.html
+├── music.html
+│
+├── LICENSE
+├── .gitignore
 └── README.md
 ```
 
-- **resources/** – Images and supporting project resources.
-- **styles/** – Dedicated stylesheets for each page.
-- **HTML files** – Individual sections of the archive.
-
-## Goals
-
-- Preserve Frank Ocean's creative history in one place.
-- Organize official and community-documented information.
-- Provide a fast, responsive, and accessible experience.
-- Welcome community contributions to improve and expand the archive.
+---
 
 ## Contributing
 
-Contributions of all sizes are welcome!
+Contributions are always welcome.
 
-1. Fork the repository.
-2. Create a feature branch.
+You can help by:
 
-```bash
-git checkout -b feature/your-feature
-```
+- Improving the UI/UX
+- Making the website responsive
+- Fixing bugs
+- Refactoring HTML, CSS, or JavaScript
+- Improving accessibility
+- Expanding the archive with verified information
 
-3. Make your changes.
-4. Commit with a clear message.
+### Looking for Contributors
 
-```bash
-git commit -m "Add released page improvements"
-```
+The **Music** page is currently under active development, and I'd especially appreciate help with:
 
-5. Push your branch.
-
-```bash
-git push origin feature/your-feature
-```
-
-6. Open a Pull Request describing your changes.
-
-### Contribution Guidelines
-
-- Keep the design consistent with the existing website.
-- Write clean, readable HTML, CSS, and JavaScript.
-- Verify information before adding it.
-- Respect copyright laws—avoid uploading copyrighted audio or video.
-- Test your changes before submitting.
+- Layout & UI/UX
+- Visual direction
+- Responsive design
+- Interactions
 
 ---
+
+## Getting Started
+
+```bash
+git clone https://github.com/animesh9807/The-Frank-Ocean-Archive.git
+```
+
+Open `index.html` in your browser.
+
+No frameworks. No build tools. Just HTML, CSS, and JavaScript.
+
+---
+
+## Disclaimer
+
+This is an unofficial fan-made project and is not affiliated with Frank Ocean or any associated entities.
+
+Album artwork and other copyrighted material remain the property of their respective owners and are used for identification and archival purposes only.
+
+---
+
+Built by fans, for fans.
