@@ -1,0 +1,266 @@
+.music-hero{
+
+    padding:5rem 0 6rem;
+    height: 80vh;
+    text-align:center;
+
+}
+
+.hero-tag{
+
+    font-size:.9rem;
+
+    letter-spacing:8px;
+
+    opacity:.7;
+
+    margin-bottom:25px;
+
+}
+
+.music-hero h1{
+
+    font-size:clamp(2.5rem,6vw,5rem);
+
+    line-height:1.15;
+
+    margin-bottom:70px;
+
+}
+
+.stats{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:70px;
+
+    flex-wrap:wrap;
+
+}
+
+.stat h2{
+
+    font-size:3rem;
+
+    margin-bottom:10px;
+
+}
+
+.stat p{
+
+    opacity:.7;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    font-size:.85rem;
+
+}
+.music-section{
+
+    padding:60px 0 100px;
+
+}
+
+.section-heading{
+
+    margin-bottom:70px;
+
+}
+
+.section-heading p{
+
+    letter-spacing:6px;
+
+    opacity:.7;
+
+    font-size:.9rem;
+
+    margin-bottom:10px;
+
+}
+
+.section-heading h2{
+
+    font-size:3rem;
+
+}
+
+
+
+.album-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:60px;
+
+}
+
+
+
+.album{
+
+    display:grid;
+
+    grid-template-columns:220px 1fr;
+
+    gap:50px;
+
+    align-items:center;
+
+    padding-bottom:60px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+
+
+.album img{
+
+    width:220px;
+
+    aspect-ratio:1;
+
+    object-fit:cover;
+
+    outline:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+
+
+.album:hover img{
+
+    transform:scale(1.02);
+
+}
+
+
+
+.album-info h3{
+
+    font-size:2.2rem;
+
+    margin-bottom:10px;
+
+}
+
+
+
+.album-info span{
+
+    display:block;
+
+    opacity:.65;
+
+    margin-bottom:25px;
+
+    letter-spacing:1px;
+
+}
+
+
+
+.album-info p{
+
+    max-width:650px;
+
+    line-height:1.9;
+
+    opacity:.92;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.album-links{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+
+
+.album-links a{
+
+    color:white;
+
+    text-decoration:none;
+
+    opacity:.75;
+
+    transition:.3s;
+
+}
+
+
+
+.album-links a:hover{
+
+    opacity:1;
+
+}
+
+
+
+.coming-soon{
+
+    padding:120px 0;
+
+    text-align:center;
+
+}
+
+
+
+.coming-soon h2{
+
+    font-size:3rem;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.coming-soon p{
+
+    font-size:1.1rem;
+
+    opacity:.8;
+
+}
+
+
+
+@media(max-width:800px){
+
+.album{
+
+    grid-template-columns:1fr;
+
+    gap:30px;
+
+}
+
+.album img{
+
+    width:100%;
+
+    max-width:300px;
+
+}
+
+}
