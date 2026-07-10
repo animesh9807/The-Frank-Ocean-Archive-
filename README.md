@@ -5,24 +5,23 @@ An open-source archive documenting Frank Ocean's music, artistry, and creative l
 ---
 
 ## Preview-
-<br>
 
 
 ### Home
 
 <img src="resources/screenshots/home-1.png" width="70%">
-<br><br><br>
+<br><br>
 
 ### Documentary
 
 <img src="resources/screenshots/documentary-2.png" width="70%">
-<br><br><br>
+<br><br>
 
 ### Music
 
 
 <img src="resources/screenshots/music-1.png" width="70%">
-<br><br><br>
+<br><br>
 
 ##### Check out  resources/screenshots/ for more
 ---
